@@ -1,0 +1,33 @@
+body {
+	padding: 10;
+	margin: 10;
+	font-family: Arial;
+}
+
+label {
+  display: block;
+}
+
+input {
+  padding: 0.25em 0;
+  margin-bottom: 0.75em;
+}
+
+input.email:valid {
+    background-color: lightgreen;
+}
+input.email:invalid {
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
